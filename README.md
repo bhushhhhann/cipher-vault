@@ -58,12 +58,12 @@ cipher-vault/
 
 ##  **Menu Options**
 
-1.List all saved website passwords
-2.Add a new password
-3.Update an existing password
-4.Delete a password
-5.Access (View) a password ← requires PIN
-6.Exit the program
+1. List all saved website passwords
+2. Add a new password
+3. Update an existing password
+4. Delete a password
+5. Access (View) a password ← requires PIN
+6. Exit the program
 
 
 ##  **Example Stored Data (`password_manager.txt`)**
@@ -75,8 +75,10 @@ cipher-vault/
         "password": [171, 85, 90]
     }
 ]
+**password is stored in encrypted integer form — never as plain text.
 
 👨‍💻 Author
 
 Bhushan Bhutada
 Python beginner exploring encryption techniques and building practical CLI tools.
+**
